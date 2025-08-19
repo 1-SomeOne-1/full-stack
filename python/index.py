@@ -32,3 +32,9 @@ def list(lit):
 
 li = [1,2,3,4,5,6,7,8,9]
 list(li)
+from module import module
+def user():
+   a=input("ENTER YOUR NAME")
+   b=module()
+   format=f"{a}{b}"
+user()
